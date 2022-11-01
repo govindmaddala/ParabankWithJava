@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.ParaBank.testScripts.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Registration(failed)" verbose="0">
+    <classes>
+      <class name="com.ParaBank.testScripts.RegisterTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="NewRegister" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ParaBank.testScripts.RegisterTest -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+  <test thread-count="5" name="Index(failed)" verbose="0">
+    <classes>
+      <class name="com.ParaBank.testScripts.IndexPageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="LoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ParaBank.testScripts.IndexPageTest -->
+    </classes>
+  </test> <!-- Index(failed) -->
+  <test thread-count="5" name="HomePage(failed)" verbose="0">
+    <classes>
+      <class name="com.ParaBank.testScripts.HomePageTest">
+        <methods>
+          <include name="NewAccountLinkStatusTest"/>
+          <include name="OverViewLinkStatusTest"/>
+          <include name="LoanLinkStatusTest"/>
+          <include name="FindTranLinkStatusTest"/>
+          <include name="TransferFundsLinkStatusTest"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="LogoutLinkStatusTest"/>
+          <include name="BillsLinkStatusTest"/>
+        </methods>
+      </class> <!-- com.ParaBank.testScripts.HomePageTest -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

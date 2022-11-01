@@ -1,0 +1,5 @@
+16:32:10.101 [main] INFO  com.ParaBank.testScripts.HomePageTest - LogoutLinkStatus Test is done
+16:32:10.126 [main] INFO  com.ParaBank.testScripts.HomePageTest - NewAccountLinkStatus Test is done
+16:32:10.146 [main] INFO  com.ParaBank.testScripts.HomePageTest - OverViewLinkStatus Test is done
+16:32:10.162 [main] INFO  com.ParaBank.testScripts.HomePageTest - TransferFundsLinkStatusTest is done
+16:32:10.267 [main] INFO  com.ParaBank.testScripts.HomePageTest - HomePage Test is done and browser is closed
